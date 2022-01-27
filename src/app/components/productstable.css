@@ -1,0 +1,28 @@
+/* .tableProductsContainer{
+    @apply rounded-t-xl overflow-hidden bg-gradient-to-r from-emerald-50 to-teal-100 p-10;
+
+  &  .tableProducts{
+        @apply table-auto ;
+        & thead{
+            & tr{
+                & th {
+                   @apply px-4 py-2 text-emerald-600;
+                }
+       
+                & td{
+                    @apply border border-emerald-500 px-4 py-2 text-emerald-600 font-medium;
+                }
+           
+            }
+           
+        }
+        & tbody{
+         & tr{
+           & tr:nth-child(2n){
+               @apply bg-gray-400;
+           }
+         }
+        }
+       }
+}
+ */

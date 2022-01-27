@@ -1,0 +1,29 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.productList{
+    @apply  m-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2;
+    max-width:60vw;
+    & .productItem{
+      @apply border-gray-400 border-2 shadow-sm flex justify-center p-2 rounded-md m-auto flex-col;
+     
+      min-width:200px;;
+
+  
+      
+  
+  }
+    
+}
+
+
+.imageContainer{
+  @apply flex justify-center align-middle;
+}
+.cardImage{
+  height:100%;
+  width:100%;
+}
